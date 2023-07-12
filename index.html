@@ -131,7 +131,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/teaser.jpg" />
+      <img src="static/images/teaser.jpg" alt="Teaser image of how AVscript's components work. A video pane of AVscript is shown at the top left corner. There is a timeline bar indicating the progress of the video player and it shows that 5 minutes and 30 seconds has past for a 11 minutes-long video. In the current frame, a pantry filled with food can be seen. Below the video pane, there is a outline pane (bottom left), which summarizes the video by listing the scenes and errors in the video. On the right top of the figure is a tool pane, which allows users to trim or change the playback speed of the selected video clip. On the right to the tool pane is a search pane with a text field, where users can input the search query of both visual objects or narration. Finally, below the tool pane and the search pane is the audiovisual script, which shows a narration transcript segmented by scenes, scene descriptions, and highlighted visual errors such as blurs and bad lightings."/>
       <h2 class="subtitle has-text-centered">
         <b>AVscript</b> is an accessible text-based video editing tool that enables blind and low-vision creators to edit videos
         efficiently using a screen reader. The <b>audio-visual script</b> provides a narration transcript segmented by scenes, scene descriptions, and highlighted visual errors (<i>e.g.,</i> blur, bad lighting).
@@ -170,19 +170,19 @@
       <h2 class="title is-3">System</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <img src="static/images/video-pane.jpg" width="50%"/>
+          <img src="static/images/video-pane.jpg" width="50%" alt="The close-up of the video pane. Over the video player timeline, notification icons are shown to indicate that this information is provided as users play the video. When the user clicks the `i' key, the following speech is provided: ``Inspect mode, currently in the frame: cereal box, snacks, shelf''"/>
       <h2 class="subtitle has-text-centered">
         AVscript’s video pane provides two types of audio notifications: scene change notifications and visual error notifications. When paused, users can activate inspect mode to access
         detected objects in the current frame.
       </h2>
       <br><br><hr style="height: 1.2px; background-color: lightgray;"><br><br>
-      <img src="static/images/outline.jpg" width="70%"/>
+      <img src="static/images/outline.jpg" width="70%" alt="The outline pane and the audiovisual script are presented in the figure. In both panes, information about scenes 5 to 8 is shown. On the left outline pane, scene descriptions such as ``The person presses on a time in the oven'' and visual errors such as ``Camera blur in 4:32'' are listed. On the right audio-visual script, all of this information is embedded with the narration script."/>
       <h2 class="subtitle has-text-centered">
         AVscript’s outline pane displays a navigable summary of the audio-visual script including the high-level
         scenes and potential edit points, such as pauses and visual errors.
       </h2>
       <br><br><hr style="height: 1.2px; background-color: lightgray;"><br><br>
-      <img src="static/images/search.jpg" width="60%"/>
+      <img src="static/images/search.jpg" width="60%" alt="The tool pane and the search pane are presented in the figure. The user is searching for the keyword ``microwave'' and seven search results are listed, where one of the results is narration search and the other seven results are visual search."/>
       <h2 class="subtitle has-text-centered">
         AVscript supports search over the transcribed
         speech and visual objects in the video. BLV creators can skim
@@ -202,7 +202,7 @@
       <h2 class="title is-3">Pipeline</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <img src="static/images/pipeline.jpg" />
+          <img src="static/images/pipeline.jpg" alt="The figure shows how audio and visual frames of the video are processed to segment scenes, generate scene descriptions, and detect pauses and visual errors. On the right, the resulting audio-visual script is shown."/>
       <h2 class="subtitle has-text-centered">
         To segment the footage into multiple scenes, we detect objects in each frame using the nouns extracted from the transcript
         as custom vocabulary. Then, we segment the footage when there is a salient change in the objects detected in nearby frames.
@@ -221,7 +221,7 @@
       <h2 class="title is-3">Evaluation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <img src="static/images/evaluation.jpg" width="70%" style="margin-right: 20%;"/>
+          <img src="static/images/evaluation.jpg" width="70%" style="margin-right: 20%;" alt="The stacked bar charts display the distribution of the rating scores for the participants' participants' personal editing tools and AVscript. Blue colors are used to indicate lower responses (positive) and red colors are used to indicate higher responses (negative). AVscript significantly outperformed users' own tools in mental demand, temporal demand, effort, frustration, confidence in the output, independence in reviewing output, and helpfulness in identifying errors."/>
           <h2 class="subtitle has-text-centered">
             After the video editing tasks, we measured the cognitive load using NASA-TLX. AVscript significantly outperformed users’ own video editing tools in mental demand, temporal demand, effort, and frustration.
             AVscript was also rated significantly better in the confidence in the output, independence in reviewing output, and
